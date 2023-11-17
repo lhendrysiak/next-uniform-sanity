@@ -15,6 +15,7 @@ export default async function HomePage(props: PageParameters) {
   const route = await retrieveRoute(props);
   return (
     <>
+    <h1>dupa</h1>
       <UniformComposition
         {...props}
         route={route}
